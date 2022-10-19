@@ -1,0 +1,421 @@
+* {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      list-style-type: none;
+      font-family: 'Poppins', sans-serif;
+}
+
+html {
+      scroll-behavior: smooth;
+}
+
+:target {
+      scroll-margin-top: 85px;
+}
+
+header {
+      background-color: #ececf4;
+}
+
+nav {
+      background-color: #ececf4;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+      z-index: 1;
+}
+
+.hamburger {
+      display: none;
+      cursor: pointer;
+}
+
+.bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      transition: all .6s ease-in-out;
+      background-color: #000;
+}
+
+.nav-menu li {
+      padding: 10px;
+      display: inline-block;
+}
+
+.logo {
+      font-weight: 600;
+      font-size: 20px;
+      margin-left: 10%;
+      cursor: pointer;
+}
+
+.logo:hover {
+      transform: rotate(2deg);
+      color: rgb(71, 207, 231);
+      transition: .3s ease;
+}
+
+.nav-menu li a {
+      font-weight: 500;
+      color: #000;
+}
+
+.nav-menu li a:hover {
+      color: rgb(71, 207, 231);
+      transition: all .2s ease;
+}
+
+.btn-explore {
+      border: none;
+      color: #eaeaea;
+      background: #000;
+      padding: 7px;
+      margin-right: 10%;
+}
+
+.btn-explore:hover {
+      background-color: rgb(71, 207, 231);
+      color: #000;
+      transition: all .2s ease;
+}
+
+.header-bg {
+      background-image: url(https://img.freepik.com/free-photo/pleased-handsome-businessman-pointing-person-making-good-point-nice-job-praising-employee-saying-well-done_176420-21751.jpg?w=826&t=st=1663074400~exp=1663075000~hmac=d343af18d22b165a88365b50231bd27fc55e5c59c84abbab86ec2b8470ce4671);
+      margin: 0 auto;
+      margin-top: 80px;
+      width: 80%;
+      height: 80vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.center-content {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      top: 30%;
+      gap: 30px;
+}
+
+.center-content h1 {
+      font-size: 80px;
+      font-weight: 500;
+      line-height: 70px;
+}
+
+.center-content p {
+      font-weight: 300;
+}
+
+.btn-explore-more {
+      border: none;
+      width: 120px;
+      padding: 7px;
+      background-color: #000;
+      color: #eaeaea;
+}
+
+.btn-explore-more:hover {
+      background-color: rgb(71, 207, 231);
+      color: #000;
+      transition: all .2s ease;
+}
+
+.wrapper {
+      margin: 0 auto;
+      width: 70%;
+      margin-top: 50px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
+      display: flex;
+      gap: 30px;
+}
+
+.wrapper p {
+      text-align: center;
+}
+
+.content {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      margin-bottom: 30px;
+}
+
+.card-img-top {
+      padding: 20px;
+      display: block;
+      margin: 0 auto;
+      width: 40px;
+      height: 40px;
+}
+
+.card {
+      padding: 30px 10px;
+      box-shadow: 0px 8px 20px rgba(149, 157, 165, 0.2);
+}
+
+.card-title {
+      text-align: center;
+}
+
+
+.card-body {
+      margin-top: 10px;
+}
+
+.card-link {
+      margin-top: 15px;
+      text-align: center;
+}
+
+.card-link a {
+      color: rgb(71, 207, 231);
+}
+
+.card-link a:hover {
+      background: rgb(71, 207, 231);
+      color: #000;
+      padding: 5px;
+      transition: all .2s;
+      border-radius: 5px;
+}
+
+.clients {
+      gap: 30px;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+}
+
+.clients p {
+      font-weight: 300;
+}
+
+.clients-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+.clients-logo img {
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+}
+
+.clients hr, .wrapperh1 {
+      margin: 0 auto;
+}
+
+.about-us {
+      gap: 10px;
+      display: flex;
+      flex-direction: row;
+}
+
+.caption {
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+}
+
+.caption h1 {
+      text-align: left;
+}
+
+hr {
+      width: 60%;
+}
+
+
+.caption p {
+      text-align: left;
+      font-weight: 200;
+}
+
+.img-about img {
+      width: 90%;
+      height: 80%;
+      border-radius: 14px 40px 14px 40px;
+}
+
+footer {
+      background-color: #ececf4;
+      display: flex;
+      justify-content: space-evenly;
+      padding: 50px;
+}
+
+.list-content li a {
+      color: #000;
+}
+
+.list-content li a:hover {
+      color: rgb(71, 207, 231);
+      transition: .3s;
+}
+
+td {
+      padding: 2px;
+}
+
+.footer-copyright {
+      background-color: rgb(27, 27, 27);
+      padding: 25px;
+      color: rgb(212, 205, 205);
+      text-align: center;
+}
+
+@media screen and (max-width:676px) {
+      header {
+            margin: 0 auto;
+            width: 100%;
+      }
+
+      nav {
+            width: 100%;
+            justify-content: space-between;
+      }
+
+      .btn-explore {
+            display: none;
+      }
+
+      .logo {
+            margin-left: 5px;
+      }
+
+      .hamburger {
+            display: block;
+            margin-right: 10px;
+      }
+
+      .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+      }
+
+      .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(765deg);
+      }
+
+      .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-764deg);
+      }
+
+      .nav-menu {
+            position: fixed;
+            width: 100%;
+            height: 50vh;
+            background: #ececf4;
+            top: 79px;
+            flex-direction: column;
+            left: -100%;
+            text-align: center;
+            transition: 0.5s;
+            z-index: 1;
+      }
+
+      .nav-menu li {
+            line-height: 50px;
+            display: block;
+      }
+
+      .nav-menu.active {
+            left: 0;
+      }
+
+      .nav-menu li a {
+            color: #000;
+      }
+
+      .header-bg {
+            width: 100%;
+      }
+
+      .center-content {
+            align-items: center;
+            width: 100%;
+            top: 30%;
+      }
+
+      .btn-explore-more {
+            margin-top: 20px;
+      }
+
+      .center-content h1, p {
+            text-align: center;
+      }
+
+      .wrapper {
+            width: 95%;
+      }
+
+      .content {
+            align-items: center;
+            flex-direction: column;
+      }
+
+      .card {
+            width: 90%;
+            margin: 0;
+      }
+
+      .clients {
+            width: 100%;
+      }
+
+      .clients-logo img {
+            width: 70px;
+            height: 70px;
+      }
+
+      hr {
+            margin: 0 auto;
+      }
+
+      .about-us {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      }
+
+      .caption h1 {
+            text-align: center;
+      }
+
+      .caption p {
+            text-align: justify;
+            gap: 10px;
+      }
+
+      .img-about img {
+            width: 180px;
+            height: 200px;
+      }
+
+      td {
+            padding: 0;
+      }
+
+      footer {
+            font-size: 12px;
+            gap: 10px;
+            padding: 10px;
+            width: 100%;
+            flex-direction: row;
+      }
+
+}
